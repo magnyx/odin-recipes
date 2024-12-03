@@ -1,28 +1,42 @@
-body {
-    background-color: rgb(240, 215, 133);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Always change box-sizing from content-box (default) to border-box */
     color:brown;
     font-family: Georgia, cursive, 'Times New Roman', Times, serif;
-    padding-left: 10%;
+}
+
+body {
+    background: rgb(249,221,197);
+    background: linear-gradient(0deg, rgba(249,221,197,1) 0%, rgba(255,178,111,1) 100%);
+    margin: 81px;
 }
 
 h1 {
-    padding-left: 12%;
-    text-decoration: dotted;
+    padding: 30px;
+    margin-top: 10px;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 24px;
+    text-decoration: dashed;
     text-decoration-color: blue;
     text-decoration-line: underline;
 }
 
 div.box {
     display: flex;
-    margin: 9 auto;
-    background-color: rgb(248, 62, 37);
-    padding: 9px;
-    margin-block: 9%;
-    border: 21px;
+    margin: 33px;
+    padding: 12px;
+    border: brown 21px;
     border-radius: 15px;
     align-items: center;
     justify-content: center;
     max-width: fit-content;
+    background: rgb(255,179,142);
+    background: linear-gradient(0deg, rgba(255,179,142,1) 0%, rgba(255,178,111,1) 100%);
+    background-blend-mode: normal;
 }
 
 li {
@@ -30,19 +44,56 @@ li {
 }
 
 a {
-    color:sandybrown;
+    color:#FFCF9D;
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
 }
 
 img {
+    max-width: 210px;
+    max-height: 110px;
+    border: #FFB38E 2px;
     border-radius: 9px;
+    align-items: center;
 }
 
 button {
-    margin: 12px;
+    width: 240px;
+    height: 150px;
+    margin: 9px;
     background-color: brown;
     border: 3px;
     border-radius: 5%
+}
+
+ p {
+    margin-left: 10px;
+ }
+
+#references {
+    margin:33px;
+    flex: content;
+    text-indent: 19px;
+}
+
+#magnyx {
+    inline-size: auto;
+    width: fit-content 5px;
+    height: fit-content 5px;
+    margin: 33px;
+    padding:9px 9px 9px 21px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: brown;
+    color: antiquewhite;
+    font: 54;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+strong {
+    color: inherit;
+}
+i {
+    color: inherit;
 }
