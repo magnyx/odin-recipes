@@ -131,7 +131,8 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-    border: blue dotted 3px;
+    border: rgba(0, 0, 255, 70%) dashed 3px;
+    padding: 1px;
 }
 
 .quote {
