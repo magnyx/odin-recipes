@@ -1,28 +1,38 @@
-
+/* index.html */
 
 * {
     margin: 0;
     padding: 0;
+}
+body {
+    background: rgba(249,221,197,1);
+    background: linear-gradient(0deg, rgba(249,221,197,1) 0%, rgba(255,178,111,1) 100%);
+    max-width: fit-content;
     box-sizing: border-box; /* Always change box-sizing from content-box (default) to border-box */
-    color:brown;
+    color:rgb(85, 21, 21);
     font-family: Georgia, cursive, 'Times New Roman', Times, serif;
+    padding-left: 4%;
 }
 
-body {
-    background: rgb(249,221,197);
-    background: linear-gradient(0deg, rgba(249,221,197,1) 0%, rgba(255,178,111,1) 100%);
-    margin: 81px;
+.side-line {
+    border-left: 3px solid #FFCF9D;
+    border-radius: 15px;
+    background-color: rgba(172, 83, 25, 0.15);
+    background-blend-mode: darken;
+    padding-bottom: 1px;
 }
 
 h1 {
     padding: 30px;
-    margin-top: 10px;
+    margin-top: 30px;
     font-size: 45px;
     font-family: 'Times New Roman', Times, serif;
-    text-indent: 24px;
-    text-decoration: dashed;
-    text-decoration-color: blue;
+    text-indent: 32px;
+    text-decoration: dashed blue;
     text-decoration-line: underline;
+    border-bottom: 3px solid #FFCF9D;
+    background-color: #FFCF9D;
+    border-radius: 15px 15px 15px 0;
 }
 
 div.box {
@@ -70,13 +80,7 @@ button {
  p {
     margin-left: 10px;
  }
-
-#references {
-    margin:33px;
-    flex: content;
-    text-indent: 19px;
-}
-
+ 
 #magnyx {
     inline-size: auto;
     width: fit-content 5px;
@@ -85,7 +89,7 @@ button {
     padding:9px 9px 9px 21px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    background-color: brown;
+    background-color: rgb(190, 87, 87);
     color: antiquewhite;
     font: 54;
     font-family: 'Times New Roman', Times, serif;
@@ -94,6 +98,20 @@ button {
 strong {
     color: inherit;
 }
+
 i {
     color: inherit;
+}
+
+#references {
+    margin:33px;
+    flex: content;
+    text-indent: 19px;
+}
+
+/* ./Pages */
+
+img.demonstration {
+    width: 900px;
+    height: 300px;
 }
